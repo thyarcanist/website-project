@@ -1,0 +1,93 @@
+/* Type Selectors */
+body {
+  background-color: #202020;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  letter-spacing: .5px;
+  font-size: 18px;
+  font-weight: 4px;
+
+  
+ 
+}
+
+ol li {
+  margin-bottom: 5px;
+  color: white;
+}
+
+h1 {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: lightslategrey;
+}
+
+p {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Class Selectors */
+
+.main-head {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #8a2be2;
+  border-style: solid;
+  border: rounded;
+  
+}
+
+.chapt-title {
+  text-align: center;
+  font-family:'Roboto Condensed', sans-serif;
+}
+
+
+
+/*ID Selectors*/
+
+#primary-content {
+  border: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+ 
+  
+}
+
+#main-picture {
+  text-align: center;
+}
+
+#main-footer {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-bottom: solid 10px black;
+}
+
+#chapters-properties {
+/*  going to think of something  */
+}
+
+#main-header {
+  text-align: center;
+}
+
+
+/* Pseudo Selectors*/
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: #8a2be2;
+}
